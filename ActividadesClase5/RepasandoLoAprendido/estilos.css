@@ -1,0 +1,507 @@
+body{
+    height: 1024px;
+    width: 1440px;
+    left: -743px;
+    top: 440px;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+}
+
+#margenTop {
+    position: absolute;
+    width: 1440px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    background: #78C2AD;
+}
+
+#margenTopPrincipal{
+    position: absolute;
+    width: 1440px;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+
+    background: #78C2AD;
+}
+
+#textoTop{
+    position: absolute;
+    width: 609px;
+    height: 70px;
+    left: 746px;
+    top: 104px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+#logoUNAHUR{
+    position: absolute;
+    width: 178px;
+    height: 152px;
+    left: 39px;
+    top: 63px;
+}
+
+#logoUNAHURPrinc{
+    position: absolute;
+    width: 178px;
+    height: 152px;
+    left: 39px;
+    top: 13px;
+}
+
+#UNAHUR{
+    position: absolute;
+    width: 410px;
+    height: 152px;
+    left: 257px;
+    top: 63px;
+}
+
+#UNAHURPrinc{
+    position: absolute;
+    width: 410px;
+    height: 152px;
+    left: 259px;
+    top: 13px;
+}
+
+#pagina{
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    left: 496px;
+    top: 306px;
+
+    background: #FFFFFF;
+    border: 1px solid #929292;
+    box-sizing: border-box;
+}
+
+#inicia{
+    position: absolute;
+    width: 267px;
+    height: 56px;
+    left: 546px;
+    top: 381px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #5F5A5A;
+}
+
+#usuario{
+    position: absolute;
+    width: 400px;
+    height: 59px;
+    left: 546px;
+    top: 483px;
+
+    background: #FFFFFF;
+    border: 1px solid #929292;
+    border-radius: 5px;
+}
+
+#contraseña{
+    position: absolute;
+    width: 400px;
+    height: 59px;
+    left: 546px;
+    top: 566px;
+
+    background: #FFFFFF;
+    border: 1px solid #929292;
+    border-radius: 5px;
+}
+
+input{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #5F5A5A;
+}
+
+#botonSesion{
+    position: absolute;
+    width: 400px;
+    height: 59px;
+    left: 546px;
+    top: 679px;
+
+    background: #78C2AD;
+    border: 1px solid #929292;
+    border-radius: 9px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+#bienvenida{
+    position: absolute;
+    width: 1249px;
+    height: 112px;
+    left: 96px;
+    top: 212px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#opcion{
+    position: absolute;
+    width: 450px;
+    height: 42px;
+    left: 220px;
+    top: 444px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: left;
+
+    color: black;
+}
+
+#ingresante{
+    position: absolute;
+    width: 1000px;
+    height: 75px;
+    left: 220px;
+    top: 514px;
+    
+    background: #FFFFFF;
+    border: 1px solid #929292;
+    border-radius: 9px 9px 0px 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: left;
+    color: #5F5A5A;
+}
+
+#estudiante{
+    position: absolute;
+    width: 1000px;
+    height: 75px;
+    left: 220px;
+    top: 589px;
+    
+    background: #FFFFFF;
+    border: 1px solid #929292;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: left;
+    color: #5F5A5A;
+}
+
+#docente{
+    position: absolute;
+    width: 1000px;
+    height: 75px;
+    left: 220px;
+    top: 664px;
+
+    background: #FFFFFF;
+    border: 1px solid #929292;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: left;
+    color: #5F5A5A;
+}
+
+#graduado{
+    position: absolute;
+    width: 1000px;
+    height: 75px;
+    left: 220px;
+    top: 739px;
+    
+    background: #FFFFFF;
+    border: 1px solid #929292;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: left;
+    color: #5F5A5A;
+}
+
+#interesado{
+    position: absolute;
+    width: 1000px;
+    height: 75px;
+    left: 220px;
+    top: 814px;
+    
+    background: #FFFFFF;
+    border: 1px solid #929292;
+    border-radius: 0px 0px 9px 9px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: left;
+    color: #5F5A5A;
+}
+
+#cerrarSesion{
+    position: absolute;
+    width: 173px;
+    height: 56px;
+    left: 1231px;
+    top: 940px;
+
+    background: #FFFFFF;
+    border: 3px solid #78C2AD;
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #78C2AD;
+}
+
+#volver{
+    position: absolute;
+    width: 233px;
+    height: 75px;
+    left: 604px;
+    top: 328px;
+
+    background: #FFFFFF;
+    border: 3px solid #78C2AD;
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #78C2AD;
+}
+
+#textSoyEstudiante{
+    position: absolute;
+    width: 550px;
+    height: 42px;
+    left: 220px;
+    top: 444px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: left;
+
+    color: black;
+}
+
+#cambioCarrera{
+    position: absolute;
+    width: 1000px;
+    height: 75px;
+    left: 220px;
+    top: 514px;
+
+    background: #FFFFFF;
+    border: 1px solid #929292;
+    border-radius: 9px 9px 0px 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+
+    text-align: left;
+    
+    color: #5F5A5A;
+}
+
+#cambioComision{
+    position: absolute;
+    width: 1000px;
+    height: 75px;
+    left: 220px;
+    top: 589px;
+
+    background: #FFFFFF;
+    border: 1px solid #929292;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+
+    text-align: left;
+    
+    color: #5F5A5A;
+}
+
+#bajaMateria{
+    position: absolute;
+    width: 1000px;
+    height: 75px;
+    left: 220px;
+    top: 664px;
+
+    background: #FFFFFF;
+    border: 1px solid #929292;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+
+    text-align: left;
+    
+    color: #5F5A5A;
+}
+
+#siuGuarani{
+    position: absolute;
+    width: 1000px;
+    height: 75px;
+    left: 220px;
+    top: 739px;
+
+    background: #FFFFFF;
+    border: 1px solid #929292;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+
+    text-align: left;
+    
+    color: #5F5A5A;
+}
+
+#campus{
+    position: absolute;
+    width: 1000px;
+    height: 75px;
+    left: 220px;
+    top: 814px;
+
+    background: #FFFFFF;
+    border: 1px solid #929292;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+
+    text-align: left;
+    
+    color: #5F5A5A;
+}
+
+#becas{
+    position: absolute;
+    width: 1000px;
+    height: 75px;
+    left: 220px;
+    top: 889px;
+
+    background: #FFFFFF;
+    border: 1px solid #929292;
+    border-radius: 0px 0px 9px 9px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+
+    text-align: left;
+    
+    color: #5F5A5A;
+}
+
+#marco{
+    position: absolute;
+    width: 1000px;
+    height: 450px;
+    left: 220px;
+    top: 514px;
+
+    background: #FFFFFF;
+    border: 1px solid #929292;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+
+#pBajaMateria{
+    position: absolute;
+    width: 938px;
+    height: 376px;
+    left: 251px;
+    top: 520px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #5F5A5A;
+    ;
+}
