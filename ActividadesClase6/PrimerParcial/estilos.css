@@ -1,0 +1,211 @@
+html{
+    height: 100%;
+}
+
+body{
+    position: relative;
+    height: 100%;
+    background-color: #E7EFF4;
+}
+
+.login{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    top: -8px;
+    left: -8px;
+    background: #E7EFF4;
+}
+
+.parteIzq{
+    position: absolute;
+    width: 896px;
+    height: 712px;
+    background: url(Imagenes/fondoo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    top: 156px;
+    left: -20px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+
+.parteDer{
+    position: absolute;
+    width: 586px;
+    height: 896px;
+    left: 784px;
+    top: 64px;
+    opacity: 1;
+    background: #FFFFFF;
+    border-radius: 0px 20px 20px 0px;
+    overflow: hidden;
+}
+
+.logobsas{
+    width: 362px;
+    height: 188px;
+    background: url(Imagenes/logoCiudadBS.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 73px;
+    left: 72px;
+    overflow: hidden;
+}
+
+.welcome{
+    width: 391px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 452px;
+    left: 218px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 80px;
+    opacity: 1;
+    text-align: left;
+    line-height: 94px;
+
+}
+
+.hi{
+    width: 332px;
+    color: #000000;
+    position: absolute;
+    top: 167px;
+    left: 832px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 72px;
+    opacity: 1;
+    text-align: left;
+}
+
+.inicieSesion{
+    width: 344px;
+    color: #000000;
+    position: absolute;
+    top: 349px;
+    left: 837px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.boxUser{
+    width: 480px;
+    height: 56px;
+    background: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    top: 454px;
+    left: 837px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.user{
+    color: #3D3D3D;
+    position: absolute;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 32px;
+    line-height: 37px;
+    opacity: 1;
+    text-align: left;
+}
+
+.boxPass{
+    width: 480px;
+    height: 56px;
+    background: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    top: 544px;
+    left: 837px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.pass{
+    color: #3D3D3D;
+    position: absolute;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 32px;
+    line-height: 37px;
+    opacity: 1;
+    text-align: left;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    top: 634px;
+    left: 837px;
+    border: 1px solid #000000;
+    overflow: hidden;
+}
+
+.recuerdame{
+    width: 135px;
+    color: #000000;
+    position: absolute;
+    top: 634px;
+    left: 868px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 24px;
+    line-height: 28px;
+    opacity: 1;
+}
+
+.olvidaPass{
+    width: 275px;
+    color: #000000;
+    position: absolute;
+    top: 634px;
+    left: 1042px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.boxLogin{
+    position: absolute;
+    width: 480px;
+    height: 56px;
+    left: 837px;
+    top: 705px;
+    opacity: 1;
+    background: #FF7196;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    border-radius: 9px;
+    overflow: hidden;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    opacity: 1;
+}

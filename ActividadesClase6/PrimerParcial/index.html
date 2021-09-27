@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+</head>
+<body>
+    <div class="login">
+        <div class="parteIzq"></div>
+        <div class="parteDer"></div>
+        <div class="logobsas"></div>
+        <span class="welcome">Bienvenido</span>
+        <span class="hi">Hola!</span>
+        <span class="inicieSesion">Inicie sesión en su cuenta</span>
+        <form id="loginForm" onsubmit="return usuarioYValidacion()">
+            <label for="usuario"></label>
+            <input type="text" name="usuario" class="user boxUser" placeholder=" Usuario" id="user" required onkeypress="return validarSoloNumeros(event)">
+            <label for="contraseña"></label>
+            <input type="password" name="contraseña" class="pass boxPass" placeholder=" Contraseña" id="pass" required>
+        </form>
+        <button type="submit" id="boton" class="boxLogin" form="loginForm" formaction="main.html">Iniciar sesión</button>
+
+        <div>
+            <label for="checkbox"></label>
+            <input type="checkbox" name="checkbox" class="checkbox" checked>
+        </div>
+        <!--"Recuérdame" no tiene una funcionalidad como tal, aparece tildado y aunque la destildes el user se almacena igual.-->
+        <span class="recuerdame">Recuérdame</span>
+        <!--"Olvidaste contraseña" no tiene una funcionalidad, fue mas bien adorno-->
+        <a href="contraseñaOlvidada.html" class="olvidaPass">¿Olvidaste tu contraseña?</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
